@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Dashboard - EventEase Admin</title><link rel="icon" href="../images/logo.svg"><link rel="stylesheet" href="../css/style.css"></head>
+<body data-page="dashboard" data-root="../" data-admin="1"><div class="adm"><aside class="side"><a class="brand" href="2. Dashboard.html"><img src="../images/logo.svg" alt=""><span data-site>EventEase</span></a><a href="2. Dashboard.html" class=on>Dashboard</a><a href="3. Manage Events.html">Manage Events</a><a href="4. Registrations.html">Registrations</a><a href="5. Settings.html">Settings</a><a href="#" data-logout>Log out</a><a href="../Client/1- Home Page.html">View website</a></aside>
+<main class="main"><h1>Dashboard</h1><div class="stats" id="stats"></div>
+<div class="charts"><div class="panel"><h2>Registrations per event</h2><canvas id="cBar"></canvas></div>
+<div class="panel"><h2>Tickets by category</h2><canvas id="cDonut"></canvas><div id="legend" class="legend"></div></div></div>
+<div class="panel mb"><h2>Registrations per week</h2><canvas id="cLine"></canvas></div><h2>Latest registrations</h2><div class="tw"><table><thead><tr><th>Name</th><th>Event</th><th>Tickets</th><th>Date</th></tr></thead><tbody id="recent"></tbody></table></div></main></div>
+<script src="../js/data.js"></script><script src="../js/main.js"></script></body></html>

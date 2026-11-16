@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Manage Events - EventEase Admin</title><link rel="icon" href="../images/logo.svg"><link rel="stylesheet" href="../css/style.css"></head>
+<body data-page="manage" data-root="../" data-admin="1"><div class="adm"><aside class="side"><a class="brand" href="2. Dashboard.html"><img src="../images/logo.svg" alt=""><span data-site>EventEase</span></a><a href="2. Dashboard.html">Dashboard</a><a href="3. Manage Events.html" class=on>Manage Events</a><a href="4. Registrations.html">Registrations</a><a href="5. Settings.html">Settings</a><a href="#" data-logout>Log out</a><a href="../Client/1- Home Page.html">View website</a></aside>
+<main class="main"><h1>Manage Events</h1><div class="panel mb"><h2>Add an event</h2><form id="evForm"><div class="two">
+<div class="field"><label for="a1">Title</label><input id="a1" name="title"></div><div class="field"><label for="a2">Category</label><input id="a2" name="category" placeholder="Business"></div>
+<div class="field"><label for="a3">Date</label><input id="a3" name="date" type="date" required></div><div class="field"><label for="a4">Time</label><input id="a4" name="time" placeholder="6:00 PM"></div>
+<div class="field"><label for="a5">Venue</label><input id="a5" name="venue"></div><div class="field"><label for="a6">Price</label><input id="a6" name="price" placeholder="Free"></div>
+<div class="field"><label for="a7">Seats</label><input id="a7" name="seats" type="number" min="1"></div></div>
+<div class="field"><label for="a8">Description</label><textarea id="a8" name="desc" rows="3"></textarea></div><button class="btn" type="submit">Add event</button></form></div>
+<div class="tw"><table><thead><tr><th>Title</th><th>Category</th><th>Date</th><th>Price</th><th></th></tr></thead><tbody id="rows"></tbody></table></div></main></div>
+<script src="../js/data.js"></script><script src="../js/main.js"></script></body></html>
